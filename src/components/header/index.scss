@@ -1,0 +1,53 @@
+.news-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.4rem;
+    background-color: #ED4040;
+    z-index: 3;
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        color: #fff;
+
+        h1 {
+            font-size: 1.6rem;
+        }
+    }
+
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        width: 4.4rem;
+        height: 4.4rem;
+
+        &.left {
+            left: 0; 
+
+            a {
+                font-size: 0;
+            }
+
+            .back-img {
+                width: 1.5rem;
+                height: 1.5rem;
+            }
+        }
+
+        &.right {
+            right: 0;
+
+            .img {
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    }
+}

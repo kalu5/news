@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+    font-size: 1.2rem;
+
+    body {
+        margin: 0;
+        height: 100%;
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p {
+            font-weight: normal;
+            margin: 0;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .app {
+            position: relative;
+            height: 100%;
+            background-color: #f5f7f8;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+<div class="bottom-loading {{showLoading}}" >{{text}}</div>

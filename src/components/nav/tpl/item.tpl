@@ -1,0 +1,1 @@
+<div class="nav-item {{isCurrent}}" data-type="{{type}}" >{{item}}</div>

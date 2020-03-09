@@ -1,0 +1,62 @@
+.loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 8rem;
+    height: 4rem;
+    margin: -2rem -4rem;
+}
+
+.loading .load {
+    position: absolute;
+    top: 1.5rem;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.loading .load.load-1 {
+    left: 2rem;
+    background-color: #33CBCC;
+    animation-name: loading-one;
+}
+
+.loading .load.load-2 {
+    right: 2rem;
+    background-color: #FE999C;
+    animation-name: loading-two;
+}
+
+@keyframes loading-one {
+    0% {
+        left: 2rem;
+        width: .8rem;
+        height: .8rem;
+        background-color: #33CBCC;
+    }
+    100% {
+        left: 6rem;
+        width: 1rem;
+        height: 1rem;
+        background-color: #ED4040;
+    }
+}
+
+@keyframes loading-two {
+    0% {
+        right: 2rem;
+        width: .8rem;
+        height: .8rem;
+        background-color: #FE999C;
+    }
+    100% {
+        right: 6rem;
+        width: 1rem;
+        height: 1rem;
+        background-color: #33CBCC;
+    }
+}

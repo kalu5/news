@@ -1,0 +1,19 @@
+.collector {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    z-index: 3;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-size: 2rem 2rem;
+    background-position: 0 0;
+
+    &.o {
+        background-image: url(../../images/star_o.png);
+    }
+
+    &.full {
+        background-image: url(../../images/star_full.png);
+    }
+}
